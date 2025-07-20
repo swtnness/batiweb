@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const fileItems = document.querySelectorAll('.file-item');
     const fileContents = document.querySelectorAll('.file-content');
 
-    // Mostrar el primer archivo por defecto
     fileContents[0].classList.add('active');
     fileItems[0].classList.add('active');
 
@@ -18,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
-    // Efecto typing
     const titles = document.querySelectorAll('.content-title');
     titles.forEach(title => {
         const originalText = title.textContent;
